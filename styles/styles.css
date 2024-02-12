@@ -39,8 +39,6 @@ nav {
   align-items: center;
   height: 12vh;
   background-color: white;
-  margin: 10px;
-  border-radius: 8px;
   padding: 0 3%;
 }
 
@@ -317,6 +315,7 @@ input[type="text"] {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  height: max-content;
 }
 
 #books-table,
@@ -339,4 +338,15 @@ th {
 }
 .results {
   margin: 15px;
+}
+
+footer {
+  padding: 15px;
+  height: 10vh;
+  background-color: rgb(255, 80, 80);
+}
+
+footer p {
+  color: white;
+  text-align: center;
 }
