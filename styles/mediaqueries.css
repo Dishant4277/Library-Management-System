@@ -30,11 +30,12 @@
     display: flex;
   }
   #search {
-    height: 90vh;
+    height: 113vh;
   }
   section {
-    height: 80vh;
+    height: 110vh;
   }
+
   input[type="text"] {
     width: 90%;
   }
